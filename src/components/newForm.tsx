@@ -6,7 +6,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useRouter } from "next/navigation";
 import { Controller, useForm } from "react-hook-form";
 
-const newForm = () => {
+const NewForm = () => {
   const {
     control,
     handleSubmit,
@@ -97,4 +97,4 @@ const newForm = () => {
   );
 };
 
-export default newForm;
+export default NewForm;
